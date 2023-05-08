@@ -1,4 +1,4 @@
-const qoutes = [
+const quotes = [
     {
         quote: "You have to have confidence in your ability, and then be tough enough to follow through.",
         author: "Rosalynn Carter", 
@@ -41,9 +41,9 @@ const qoutes = [
     }
 ];
 
-const qoute = document.querySelector("#qoute span:first-child");
-const author = documnet.querySelector("#qoute span:last-child");
-const todaysQoute = qoutes[Math.floor(Math.random() * qoutes.length)];
+const quote = document.querySelector("#quote span:first-child");
+const author = document.querySelector("#quote span:last-child");
+const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = todaysQoute.quote;
-author.innerText = todaysQoute.author;
+quote.innerText = todaysQuote.quote;
+author.innerText = todaysQuote.author;
