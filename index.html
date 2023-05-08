@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>My Chrome App</title>
 </head>
 <body>
     <h1 id="clock">00:00:00</h1>
     <div id="wheather">
         <span></span>
+        <span></span>
     </div>
-  
-    <audio src="./sound/rainsound.mp3" controls aria-label="play rainy sound"></audio>
-
+    <div id="quote">
+        <span aria-label="quote"></span>
+        <span aria-label="author"></span>
+    </div>
+    <div>
+        <audio id="sound" src="./sound/rainsound.mp3" controls aria-label="play rainy sound"></audio>
+    </div>
     <script src="js/clock.js"></script>
-    <script src="js/exchange.js"></script>
-    <script>
-    </script>
+    <script src="js/weather.js"></script>
+    <script src="js/quotes.js"></script>
 </body>
 </html>

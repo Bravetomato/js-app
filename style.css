@@ -6,3 +6,7 @@
     url('../fonts/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
     url('../fonts/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
 }
+
+.hidden {
+    display: none;
+}
