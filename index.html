@@ -9,7 +9,12 @@
     <title>My Chrome App</title>
 </head>
 <body>
-    <h1 id="clock">00:00:00</h1>
+    <form id="login-form" class="hidden">
+        <input required maxlength="10" type="text" placeholder="Write your name" />
+        <input type="submit" value="Log In" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="clock">00:00:00</h2>
     <div id="wheather">
         <span></span>
         <span></span>
@@ -21,6 +26,7 @@
     <div>
         <audio id="sound" src="./sound/rainsound.mp3" controls aria-label="play rainy sound"></audio>
     </div>
+    <script src="js/login.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/quotes.js"></script>
